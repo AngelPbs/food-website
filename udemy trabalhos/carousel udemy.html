@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pt">
+  <head>
+    <meta charset="utf-8" />
+    <meta title="Arctic Monkeys" />
+    <meta name="Paulo Vieira" />
+    <script
+      src="https://kit.fontawesome.com/ded43523ba.js"
+      crossorigin="anonymous"
+    ></script>
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      .carousel {
+        background-color: rgb(47, 179, 47);
+        width: 800px;
+        margin: 100px auto;
+        border-radius: 8px;
+        color: white;
+        padding: 32px;
+        padding-left: 86px;
+        display: flex;
+        align-items: center;
+        gap: 86px;
+        position: relative;
+      }
+      img {
+        border-radius: 8px;
+        height: 200px;
+        width: 200px;
+        transform: scale(1.5);
+        box-shadow: 0 12px 24px rgba(0, 0, 0, 0.25);
+      }
+      .testimonial-text {
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 1.5;
+        margin-bottom: 32px;
+      }
+      .testimonial-author {
+        font-size: 14px;
+        margin-bottom: 4px;
+      }
+      .testimonial-job {
+        font-size: 12px;
+      }
+      .btn {
+        background-color: white;
+        border: none;
+        height: 40px;
+        width: 40px;
+        border-radius: 50%;
+        position: absolute;
+        top: 50%;
+        box-shadow: 0 12px 24px rgba(0, 0, 0, 0.25);
+        cursor: pointer;
+      }
+      .btn--left {
+        left: 0;
+        transform: translate(-50%, -50%);
+        transform: translate;
+      }
+      .btn--right {
+        transform: translate(50%, -50%);
+        right: 0;
+      }
+      .fa-solid {
+        color: rgb(19, 190, 73);
+      }
+      .dots {
+        position: absolute;
+        left: 50%;
+        bottom: 0;
+        transform: translate(-50%, 30px);
+      }
+      .dot {
+        width: 12px;
+        height: 12px;
+        border-radius: 50%;
+        border: 2px solid green;
+        cursor: pointer;
+      }
+      .dot--fill {
+        background-color: green;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="carousel">
+      <img
+        src="C:\Users\auchan\OneDrive\Área de Trabalho\VsCode\imagens\68.jpg"
+      />
+      <div class="testimonial">
+        <p class="testimonial-text">
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reiciendis
+          ad porro ea veniam dignissimos? Officia ipsam dolorum iste, dolorem
+          voluptates a ducimus, facilis at fugit tempore tempora quae. Quis,
+          numquam.
+        </p>
+        <p class="testimonial-auhtor">Maria</p>
+        <p class="testimonial job">senior</p>
+      </div>
+      <button class="btn btn--left">
+        <i class="fa-solid fa-chevron-left"></i>
+      </button>
+      <button class="btn btn--right">
+        <i class="fa-solid fa-chevron-right"></i>
+      </button>
+      <div class="dots">
+        <button class="dot dot--fill">&nbsp;</button>
+        <button class="dot">&nbsp;</button>
+        <button class="dot">&nbsp;</button>
+        <button class="dot">&nbsp;</button>
+      </div>
+    </div>
+  </body>
+</html>

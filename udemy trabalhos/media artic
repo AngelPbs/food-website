@@ -1,0 +1,70 @@
+.titulo {
+  display: grid;
+  grid-template-columns: 30% 30% 30%;
+  justify-content: space-evenly;
+  align-items: flex-end;
+  font-family: sans-serif;
+  font-weight: bolder;
+  color: brown;
+  text-align: center;
+  gap: 5px;
+}
+.tit {
+  padding-bottom: 20px;
+}
+.titulo img {
+  width: 80%;
+  height: 80%;
+  border-radius: 20px;
+}
+.Container2 {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.Coluna,
+.Coluna1,
+.Coluna2 {
+  display: grid;
+  grid-template-columns: 100%;
+}
+
+.BotaoBilhetes {
+  margin-bottom: 10px;
+}
+
+.infos {
+  margin-left: 0%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.footer {
+  background-color: rgb(180, 179, 179);
+  text-align: center;
+  margin-top: 10px;
+  max-width: 100%;
+  height: 100px;
+}
+
+.Logos {
+  padding: 5px;
+  margin-top: 20px;
+  font-size: large;
+}
+.contactos {
+  display: grid;
+  grid-template-columns: 100%;
+}
+.formulario {
+  margin-left: 25%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
